@@ -1,0 +1,12 @@
+.boxval{
+  height: 50px;
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  background-color: blue;
+  color : white;
+}
+
+.boxval a{
+	color:white;
+}
