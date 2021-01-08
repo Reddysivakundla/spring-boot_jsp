@@ -50,7 +50,7 @@ public class TraineeController extends WebSecurityConfigurerAdapter implements W
 	
 	@Override
     protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("Reddy").password("{noop}reddysiva").roles("USER");
+		auth.inMemoryAuthentication().withUser("Reddy").password("{noop}reddy").roles("USER");
     }
 
     @Override
