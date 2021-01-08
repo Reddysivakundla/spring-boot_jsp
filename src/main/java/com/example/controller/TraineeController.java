@@ -152,6 +152,7 @@ public class TraineeController extends WebSecurityConfigurerAdapter implements W
 		return "Failed to add data";
 	}
 	
+	/* Deleting*/
 	@DeleteMapping(value = "/delete")
 	@ResponseBody
 	public String deleteFunction(@RequestParam Integer id) {
