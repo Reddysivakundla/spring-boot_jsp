@@ -13,6 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.MimeTypeUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,6 +33,7 @@ import com.example.Service.TraineeService;
 
 @Controller
 @EnableWebSecurity
+@CrossOrigin
 public class TraineeController extends WebSecurityConfigurerAdapter implements WebMvcConfigurer {
 	
 	@Autowired
